@@ -10,3 +10,13 @@ declare module 'csstype' {
     [index: `--${string}`]: any;
   }
 }
+
+declare module '*.png' {
+  const value: string;
+  export default value;
+}
+
+declare module '*.jpg' {
+  const value: string;
+  export default value;
+}

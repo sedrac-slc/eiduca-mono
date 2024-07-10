@@ -3,6 +3,8 @@
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
+    "@hilla/react-components": "^2.3.16",
+    "@lit-labs/react": "^2.1.3",
     "@polymer/polymer": "3.5.1",
     "@vaadin/bundles": "24.4.2",
     "@vaadin/common-frontend": "0.0.19",
@@ -25,10 +27,13 @@
     "@vaadin/vaadin-usage-statistics": "2.1.2",
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
     "lit": "3.1.4",
     "proj4": "2.11.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-i18next": "^14.1.2",
     "react-router-dom": "6.23.1"
   },
   "devDependencies": {
@@ -48,10 +53,13 @@
     "@vaadin/hilla-generator-utils": "24.4.3",
     "@vitejs/plugin-react": "4.3.1",
     "async": "3.2.5",
+    "autoprefixer": "^10.4.19",
     "glob": "10.4.1",
+    "postcss": "^8.4.39",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.12.0",
     "strip-css-comments": "5.0.0",
+    "tailwindcss": "^3.4.4",
     "transform-ast": "2.4.4",
     "typescript": "5.4.5",
     "vite": "5.3.3",
@@ -119,7 +127,7 @@
       "workbox-core": "7.1.0",
       "workbox-precaching": "7.1.0"
     },
-    "hash": "0467f8476d5ea549ef8280c2bb038ba899ec18578a3c5304e10ad4265085fe27"
+    "hash": "fe43f87b0af28356d72a0a9aa5694e0a12d4e7dd375a22edf2e230d4a6c547e9"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -159,6 +167,11 @@
     "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "@hilla/react-components": "$@hilla/react-components",
+    "i18next-browser-languagedetector": "$i18next-browser-languagedetector",
+    "react-i18next": "$react-i18next",
+    "@lit-labs/react": "$@lit-labs/react",
+    "i18next": "$i18next"
   }
 }

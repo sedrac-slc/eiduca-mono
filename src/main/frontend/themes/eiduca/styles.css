@@ -1,0 +1,6 @@
+/* Import your application global css files here or add the styles directly to this file */
+.bg-graph{
+    background: url('/assets/img/graph.png');
+    background-position: -8.8rem -9rem;
+    background-repeat: no-repeat;
+}
