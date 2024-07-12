@@ -1,4 +1,7 @@
 target/
+.idea/
+.vscode/
+.mvn/
 
 # The following files are generated/updated by Hilla
 node_modules/
