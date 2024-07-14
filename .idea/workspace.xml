@@ -4,96 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c508d5-dfa4-4b5c-8e02-a8af88a613a3" name="Changes" comment="">
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/routes.tsx" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="55ee94a5-00ca-4eaa-9334-700297b39d51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/Item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/ListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/Loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/routeNames.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/components/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/routes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/About.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2j3Df6bx2gYcxL1TJCX3LaIF5GZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.eiduca.application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
-    "Application.com.eiduca.application.Application.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Sedrac/Documents/Intellij/eiduca/src/main/frontend/components",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\frontend\components" />
+      <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\frontend\views" />
     </key>
   </component>
->>>>>>> Stashed changes
-  <component name="RunManager" selected="Application.com.eiduca.application.Application">
+  <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.application.Application" />
-      <module name="eiduca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="com.eiduca.application.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eiduca.application.Application" />
       <module name="eiduca" />
       <extension name="coverage">
@@ -104,12 +60,10 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.eiduca.application.Application" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -117,11 +71,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13c508d5-dfa4-4b5c-8e02-a8af88a613a3" name="Changes" comment="" />
-      <created>1720606969584</created>
+      <changelist id="55ee94a5-00ca-4eaa-9334-700297b39d51" name="Changes" comment="" />
+      <created>1720924988780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720606969584</updated>
+      <updated>1720924988780</updated>
     </task>
     <servers />
   </component>

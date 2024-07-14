@@ -128,7 +128,7 @@
       "workbox-core": "7.1.0",
       "workbox-precaching": "7.1.0"
     },
-    "hash": "fe43f87b0af28356d72a0a9aa5694e0a12d4e7dd375a22edf2e230d4a6c547e9"
+    "hash": "e30f0791fc81bf68b008d568cddd9f134bb8004fc8b8f93ef060f8d593709b32"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -173,6 +173,7 @@
     "i18next-browser-languagedetector": "$i18next-browser-languagedetector",
     "react-i18next": "$react-i18next",
     "@lit-labs/react": "$@lit-labs/react",
-    "i18next": "$i18next"
+    "i18next": "$i18next",
+    "classnames": "$classnames"
   }
 }

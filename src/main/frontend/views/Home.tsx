@@ -3,12 +3,13 @@ import { TabSheet } from '@hilla/react-components/TabSheet.js';
 import { Tabs } from '@hilla/react-components/Tabs.js';
 import { Tab } from '@hilla/react-components/Tab.js';
 import { Button } from '@hilla/react-components/Button.js';
+import { NavLink } from 'react-router-dom';
 import { Icon } from '@hilla/react-components/Icon.js';
 import { useTranslation } from 'react-i18next';
 import '@vaadin/icons';
 
 import Card from '../components/Card.js';
-
+import Footer from '../components/Footer.js';
 import graduationIcon from '../assets/img/school_graduation_icon.png';
 
 export default function Home() {
@@ -16,7 +17,6 @@ export default function Home() {
 
   return (
     <TabSheet>
-
       <Tabs slot="tabs" theme="equal-width-tabs">
         <Tab id="dashboard-tab">
             <Icon icon="vaadin:home" />
@@ -38,10 +38,10 @@ export default function Home() {
                 <p className="text-4xl font-bold">Bem-vindo ao  <span className="text-yellow-500">eiduca</span> </p>
                 <p className="text-2xl font-medium my-2">Plataforma para Gerenciamento Educacional</p>
                 <p className="text-lg text-justify indent-4 my-4">O eibuca é a solução definitiva para o gerenciamento de universidades, faculdades e escolas de ensino médio. Nossa plataforma oferece ferramentas e recursos para facilitar a administração acadêmica, financeira e administrativa.</p>
-                <Button className="flex-none w-min mt-3 bg-yellow-500 text-white" theme="large">
+                <NavLink to="/login" className="w-max text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-lg px-5 py-2.5 text-center me-2 mb-2">
                     <Icon icon="vaadin:lock"/>
                     <span>Autenticação</span>
-                </Button>
+                </NavLink>
             </article>
             <div className="flex justify-center">
                 <img src={graduationIcon} alt="Logo" />
@@ -74,22 +74,32 @@ export default function Home() {
 
         </section>
 
-        <section className="pb-40 mt-15">
+        <section className="pb-40 mt-15 bg-graph">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-10 mt-48">
-                <div className="mt-10 text-center grow-0 bg-resource"/>
+                <div className="mt-10 text-center grow-0 bg-resource">
+                    <div className="text-4xl font-bold">
+                        <span>Recursos</span> <span className="text-yellow-500">disponíveis</span>
+                    </div>
+                    <div className="text-xl my-5">
+                        Nossa plataforma oferece os melhores recursos tecnológicos para facilitar seu trabalho, tornando-o prático e automatizado
+                    </div>
+                </div>
                 <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-4 grow-1">
-                    <Card title="API Rest" text="Facilidade de uso e experiência intuitiva para todos os usuários"  icon="vaadin:area-select" isBorder={true} isInline={true}/>
-                    <Card title="Editor documento" text="Proteção robusta de dados e privacidade garantida" icon="vaadin:shield" isBorder={true} isInline={true}/>
-                    <Card title="Agendamento" text="Compatibilidade perfeita com diversos dispositivos e sistemas operacionais" icon="vaadin:mobile-browser" isBorder={true} isInline={true}/>
-                    <Card title="Multilocatório" text="Arquitetura escalável e desempenho otimizado em ambientes distribuídos" icon="vaadin:cubes" isBorder={true} isInline={true}/>
+                    <Card title="API Rest" text="Integração fácil e segura com outros sistemas através de uma API REST completa" isBorder={true} isInline={true}/>
+                    <Card title="Agendamento" text="Gerencie e organize compromissos, eventos e tarefas com nosso sistema de agendamento" isBorder={true} isInline={true}/>
+                    <Card title="Automatização" text="Automatize processos repetitivos e melhore a eficiência operacional com nossas ferramentas de automatização" isBorder={true} isInline={true}/>
+                    <Card title="Editor documento" text="Criação e edição de documentos diretamente na plataforma com nosso editor integrado" isBorder={true} isInline={true}/>
+                    <Card title="Multilocatório" text="Suporte para multitenancy, permitindo integração e conexão com vários SGBDs, facilitando a gestão de múltiplos ambientes de dados" isBorder={true} isInline={true}/>
+                    <Card title="Web Hooks" text="Receba notificações em tempo real e automatize respostas a eventos importantes com web hooks" isBorder={true} isInline={true}/>
                 </div>
             </div>
         </section>
-
+        <Footer/>
       </div>
       <div {...{ tab: 'payment-tab' }}>This is the Payment tab content</div>
       <div {...{ tab: 'shipping-tab' }}>This is the Shipping tab content</div>
 
     </TabSheet>
+
   );
 }
