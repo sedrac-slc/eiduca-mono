@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ee94a5-00ca-4eaa-9334-700297b39d51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/Item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/components/Loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/routeNames.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/routes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/About.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,24 +15,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jGxRt1Sd3jzhXyCkWXt4iZtPa2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sedrac/Documents/Intellij/eiduca/src/main/frontend/components",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sedrac/Documents/Intellij/eiduca/src/main/frontend/components&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\frontend\components" />

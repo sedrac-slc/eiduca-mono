@@ -8,9 +8,9 @@ import '@vaadin/icons';
 
 export default function Login(){
     return (
-        <form className="flex flex-col justify-center items-center h-full">
-              <div className="absolute top-0 bg-yellow-500 w-full p-3">
-                    <NavLink to="/" className="text-white space-x-3 text-lg">
+        <form className="flex flex-col justify-center items-center h-full bg-graph-login">
+              <div className="absolute top-0 border-b border-yellow-500 w-full p-3">
+                    <NavLink to="/" className="space-x-3 text-white text-lg">
                         <Icon icon="vaadin:home"/>
                         <span>Página inicial</span>
                     </NavLink>

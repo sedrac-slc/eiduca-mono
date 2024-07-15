@@ -6,3 +6,7 @@
 .bg-resource{
     background: url('/assets/img/school_learning_icon.png') no-repeat 8rem 6rem;
 }
+
+.bg-graph-login{
+    background: url('/assets/img/graph-login.png') no-repeat -8.8rem -9rem;
+}
