@@ -5,15 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ee94a5-00ca-4eaa-9334-700297b39d51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/common/ModalCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/common/RepositoryCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/ExceptionFoundation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/ExceptionHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/request/post/PersonPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/request/put/PersonPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +41,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2jGxRt1Sd3jzhXyCkWXt4iZtPa2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,6 +64,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\frontend\components" />
       <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\frontend\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eiduca.application.module.core.request.put" />
     </key>
   </component>
   <component name="RunManager">
