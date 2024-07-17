@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 
-public class ExceptionFoundation {
+public abstract class ExceptionAbstract {
 
     private ResponseEntity<ProblemDetail> exception(Exception exception , HttpStatus httpStatusCode, String detail) {
         ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(httpStatusCode, detail);
