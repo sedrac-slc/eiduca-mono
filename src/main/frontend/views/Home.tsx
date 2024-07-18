@@ -6,7 +6,6 @@ import { Button } from '@hilla/react-components/Button.js';
 import { NavLink } from 'react-router-dom';
 import { Icon } from '@hilla/react-components/Icon.js';
 import { useTranslation } from 'react-i18next';
-import '@vaadin/icons';
 
 import Card from '../components/Card.js';
 import Footer from '../components/Footer.js';
@@ -40,7 +39,7 @@ export default function Home() {
                 <p className="text-lg text-justify indent-4 my-4">O eibuca é a solução definitiva para o gerenciamento de universidades, faculdades e escolas de ensino médio. Nossa plataforma oferece ferramentas e recursos para facilitar a administração acadêmica, financeira e administrativa.</p>
                 <NavLink to="/login" className="w-max text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-lg px-5 py-2.5 text-center me-2 mb-2">
                     <Icon icon="vaadin:lock"/>
-                    <span>Autenticação</span>
+                    <span>Login</span>
                 </NavLink>
             </article>
             <div className="flex justify-center">
