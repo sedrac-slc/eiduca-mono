@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ee94a5-00ca-4eaa-9334-700297b39d51" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/views/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/themes/eiducamono/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/themes/eiduca/theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/themes/eiducamono/theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/common/ModalCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/common/ModalCommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/common/RepositoryCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/common/RepositoryCommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/ExceptionAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/exception/ExceptionAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/ExceptionHandlerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/exception/ExceptionHandlerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/request/post/PersonPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/request/post/PersonPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/request/put/PersonPut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/request/put/PersonPut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/response/PersonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/response/PersonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/module/core/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/module/core/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/services/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/services/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eiduca/application/services/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eiducamono/application/services/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sedrac/Documents/Intellij/eiduca/src/main/resources&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Application.executor": "Run",
+    "Application.com.eiducamono.application.Application.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sedrac/Documents/Intellij/eiduca/src/main/resources",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sedrac\Documents\Intellij\eiduca\src\main\resources" />
@@ -70,12 +87,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eiduca.application.Application" />
+    <configuration name="com.eiducamono.application.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eiducamono.application.Application" />
       <module name="eiduca" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eiduca.application.*" />
+          <option name="PATTERN" value="com.eiducamono.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.com.eiducamono.application.Application" />
       </list>
     </recent_temporary>
   </component>

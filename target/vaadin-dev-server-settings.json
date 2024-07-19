@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\GQS 7\\Documents\\intellij\\eiduca-mono\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\GQS 7\\Documents\\intellij\\eiduca-mono\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/GQS 7/Documents/intellij/eiduca-mono/src/main/frontend/generated/jar-resources",
+  "themeName": "eiducamono",
+  "clientServiceWorkerSource": "C:\\Users\\GQS 7\\Documents\\intellij\\eiduca-mono\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

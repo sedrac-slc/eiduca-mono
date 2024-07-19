@@ -1,0 +1,12 @@
+[
+  {
+    "route": "Home",
+    "params": {},
+    "title": "Home"
+  },
+  {
+    "route": "Login",
+    "params": {},
+    "title": "Login"
+  }
+]
